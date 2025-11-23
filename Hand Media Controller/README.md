@@ -37,6 +37,12 @@ This Python script utilizes computer vision and hand tracking to control media p
    pip install opencv-python mediapipe numpy pyautogui pycaw comtypes
    ```
 
+   or
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 ## How to Run
 
 1. **Execute the script:**
