@@ -1,0 +1,20 @@
+# Requirements inferred from mediaControl3.py
+#
+# These are the runtime dependencies used by `mediaControl3.py`.
+# Versions are suggestions — adjust if you need to match your environment.
+# Install with: `pip install -r requirements.txt`
+
+mediapipe>=0.10.0
+opencv-python>=4.5.5
+numpy>=1.21
+pyautogui>=0.9.53
+Pillow>=8.4.0
+pycaw>=20181226
+comtypes>=1.1.10
+pywin32>=305
+
+# Notes:
+# - `mediapipe`, `opencv-python`, and `numpy` provide the hand-tracking and image processing.
+# - `pyautogui` is used to send media/volume key presses (Pillow is a runtime dependency).
+# - `pycaw` and `comtypes` are optional and only needed if you plan to use Windows Audio APIs
+#   (the script currently keeps the pycaw imports for reference).
